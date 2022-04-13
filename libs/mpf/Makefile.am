@@ -3,6 +3,7 @@ MAINTAINERCLEANFILES     = Makefile.in
 AM_CPPFLAGS              = -I$(top_srcdir)/libs/mpf/codecs \
                            -I$(top_srcdir)/libs/mpf/include \
                            -I$(top_srcdir)/libs/apr-toolkit/include \
+                           -I$(top_srcdir)/libs/mpf \
                            $(UNIMRCP_APR_INCLUDES)
 
 noinst_LTLIBRARIES       = libmpf.la
